@@ -24,7 +24,7 @@ export class App {
     this.arrow = this.game.add.sprite(400, 300, 'arrow');
     this.arrow.anchor.setTo(0.5, 0.5);
 
-    this.text = new Text(this.game, 'InHabit');
+    this.text = new Text(this.game, 'InHabit', this.container.offsetWidth/2 - 224, this.container.offsetHeight - 100);
 
     this.physicalObjects.push(this.text.text);
     this.physicalObjects.push(this.arrow);
