@@ -14,7 +14,6 @@
             self.contextual = 'https://en.wikipedia.org/wiki/Tom_Cruise';
             localStorage.setItem('contextual', self.contextual);
         }
-
         self.on('mount', function () {
             this.refresh();
         });
@@ -80,7 +79,7 @@
                 {
                     "id": "application",
                     "cfg": {
-                        "cssUrl": [ '../' ],
+                        "cssUrl": [ 'https://inhabit-app.akamaized.net/css/ark-app.css' ],
                         "cacheTimeSec": "300",
                         "cdnUrl": ""
                     }
