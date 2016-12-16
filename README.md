@@ -1,28 +1,31 @@
-# Brunch + Babel/ES6
+[Brunch] InHabit Module --with-phaser
+========================================================
 
-This is a modern JS skeleton for [Brunch](http://brunch.io).
+This is a modern JS skeleton for Brunch and [InHabit].
+
+## Requirements
+The only requirement is [Node.js].
 
 ## Installation
+0. [IHPM] (recommended)  
+   Follow `Installation` section on the [IHPM] page, then run `ihpm init project-name phaser`.
 
-Clone this repo manually or use `brunch new dir -s brunch/with-es6`
+0. Git  
+   Use `git clone https://github.com/ArkadiumInc/brunch-inhabit-module-js project-name` to clone, then run `npm install` in cloned directory
+
+0. Brunch  
+   Install Brunch, then run `brunch new project-name -s ArkadiumInc/brunch-inhabit-module-js`
 
 ## Getting started
+After you got familiar with [Installation](#Installation) section you can start developing [InHabit] Module.
+Try running `npm start`, then follow http://localhost:3333.
+There is a live-reloading dev-server.
+Now you can open up a preferred code editor (such as [Atom]) and start coding!  
+After you are done, try running `npm run build` to build a minified JavaScript and a `package.zip` for uploading.
 
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * Brunch plugins and app dependencies: `npm install`
-* Run:
-    * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `brunch build --production` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
-
-## ES7
-
-To use proposed JS features not included into ES6, do this:
-
-* `npm install --save-dev babel-preset-stage-0`
-* in `brunch-config.js`, add the preset: `presets: ['es2015', 'stage-0']`
+[Brunch]: http://brunch.io/
+[InHabit]: http://www.arkadium.com/
+[Node.js]: http://nodejs.org/
+[IHPM]: https://github.com/ArkadiumInc/node-ihpm
+[Git]: https://git-scm.com/
+[Atom]: https://atom.io/
