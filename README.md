@@ -11,10 +11,10 @@ The only requirement is [Node.js].
    Follow `Installation` section on the [IHPM] page, then run `ihpm init project-name phaser`.
 
 0. Git  
-   Use `git clone https://github.com/ArkadiumInc/brunch-inhabit-module-js project-name` to clone, then run `npm install` in cloned directory
+   Use `git clone https://github.com/ArkadiumInc/brunch-inhabit-module-phaser project-name` to clone, then run `npm install` in cloned directory
 
 0. Brunch  
-   Install Brunch, then run `brunch new project-name -s ArkadiumInc/brunch-inhabit-module-js`
+   Install Brunch, then run `brunch new project-name -s ArkadiumInc/brunch-inhabit-module-phaser`
 
 ## Getting started
 After you got familiar with [Installation](#Installation) section you can start developing [InHabit] Module.
