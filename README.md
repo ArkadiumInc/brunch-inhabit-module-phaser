@@ -7,8 +7,10 @@ This is a modern JS skeleton for Brunch and [InHabit].
 The only requirement is [Node.js].
 
 ## Installation
-0. [IHPM] (recommended)  
-   Follow `Installation` section on the [IHPM] page, then run `ihpm init project-name phaser`.
+There is **three ways** to get started with this project:
+
+0. [IHPM] (**recommended**)  
+   Follow `Installation` section on the [IHPM] page, then run `ihpm init project-name`.
 
 0. Git  
    Use `git clone https://github.com/ArkadiumInc/brunch-inhabit-module-phaser project-name` to clone, then run `npm install` in cloned directory
