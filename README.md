@@ -7,9 +7,9 @@ This is a modern JS skeleton for Brunch and [InHabit].
 The only requirement is [Node.js].
 
 ## Installation
-There is **three ways** to get started with this project:
+There are **three ways** to get started with this project:
 
-0. [IHPM] (**recommended**)  
+0. [IHPM] - **recommended**  
    Follow `Installation` section on the [IHPM] page, then run `ihpm init project-name`.
 
 0. Git  
