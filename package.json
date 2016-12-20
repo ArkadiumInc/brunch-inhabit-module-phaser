@@ -1,6 +1,6 @@
 {
-  "name": "generator-brunch-inhabit-module-phaser",
-  "version": "0.0.1",
+  "name": "generator-inhabit-brunch-phaser",
+  "version": "0.0.2",
   "description": "This is template for inhabit modules",
   "homepage": "www.arkadium.com",
   "author": {
