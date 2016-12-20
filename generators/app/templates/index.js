@@ -36,6 +36,11 @@ module.exports = yeoman.Base.extend({
             this.templateReplace
         );
         this.fs.copyTpl(
+            this.templatePath('project/app/lib'),
+            this.destinationPath('app/lib'),
+            this.templateReplace
+        );
+        this.fs.copyTpl(
             this.templatePath('project/brunch-config.js'),
             this.destinationPath('brunch-config.js'),
             this.templateReplace
