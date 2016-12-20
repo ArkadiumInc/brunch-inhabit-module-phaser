@@ -37,7 +37,7 @@
             storeConfig(configId, config);
 
             script.setAttribute('async', 'true');
-            script.setAttribute('src', 'https://inhabit-widget-service-dev.azurewebsites.net/Widget/v1');
+            script.setAttribute('src', '//widgetapi-inhabit.as.arkadiumhosted.com/Widget/v1');
             script.setAttribute('data-ark-configuration', '__ark_app__:' + configId);
             script.setAttribute('data-ark-contextual-url', contextual);
             container.appendChild(script);
@@ -119,7 +119,7 @@
                             "cfg": {
                                 "modules": [
                                     {
-                                        "id": "my-module"
+                                        "id": "<%= nameMin %>"
                                     }
                                 ]
                             }

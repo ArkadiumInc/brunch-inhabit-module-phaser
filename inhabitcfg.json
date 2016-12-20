@@ -1,5 +1,0 @@
-{
-  "main": "public/my-module.js",
-  "resources": "app/assets/build/resources",
-  "preview": "preview.jpg"
-}

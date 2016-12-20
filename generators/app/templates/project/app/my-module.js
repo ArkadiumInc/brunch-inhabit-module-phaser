@@ -3,13 +3,13 @@ import { InhabitModuleBase } from 'inhabit-module-base';
 
 import { App }               from './lib/app';
 
-export class MyModule extends InhabitModuleBase {
+export class <%= name %> extends InhabitModuleBase {
   constructor(conf, deps) {
     super(conf, deps);
   }
 
   getTitle() {
-    return 'My Module';
+    return '<%= name %>';
   }
 
   getThumbnail() {
@@ -33,6 +33,7 @@ export class MyModule extends InhabitModuleBase {
   }
 }
 
-MyModule.moduleName = 'my-module';
+<%= name %>.moduleName = '<%= nameMin %>';
 
-InhabitModuleBase.publish(MyModule);
+InhabitModuleBase.publish(<%= name %>);
+

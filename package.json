@@ -1,36 +1,30 @@
 {
-  "name": "your-app",
-  "description": "Description",
+  "name": "generator-brunch-inhabit-module-phaser",
   "version": "0.0.1",
-  "private": true,
+  "description": "This is template for inhabit modules",
+  "homepage": "www.arkadium.com",
   "author": {
-    "name": "Your Name",
-    "email": "your@email.com",
-    "url": "https://your.web.site/"
+    "name": "arkadium",
+    "email": "wmts@arkadium.com",
+    "url": "http://www.arkadium.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "template",
+    "inhabit",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/ArkadiumInc/brunch-inhabit-module-phaser.git"
   },
-  "license": "MIT",
-  "scripts": {
-    "start": "brunch watch --server --debug",
-    "build": "brunch build --production",
-    "postbuild": "npm run pack",
-    "pack": "ihpm pack"
-  },
-  "dependencies": {
-    "babel-brunch": "~6.0.0",
-    "babel-preset-es2015": "~6.3.13",
-    "brunch": "^2.4.0",
-    "ihpm": "^2.0.2-0",
-    "inhabit-module-base": "^1.3.15",
-    "javascript-brunch": "^2.0.0",
-    "phaser": "^2.6.2",
-    "pinkie": "^2.0.4",
-    "uglify-js-brunch": "^2.0.0"
-  },
-  "devDependencies": {
-    "auto-reload-brunch": "^2.0.0"
-  }
+  "license": "MIT"
 }
