@@ -55,6 +55,11 @@ module.exports = yeoman.Base.extend({
             this.destinationPath('package.json'),
             this.templateReplace
         );
+        this.fs.copyTpl(
+            this.templatePath('project/preview.jpg'),
+            this.destinationPath('preview.jpg'),
+            this.templateReplace
+        );
 
         this.fs.copyTpl(
             this.templatePath('project/app/my-module.js'),
